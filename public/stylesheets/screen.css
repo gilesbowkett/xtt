@@ -9,8 +9,8 @@ body {
   text-align: center;
   padding: 0;
   font: normal 12px/1.5em "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background: #d7d7d7;
-  color: #313131;
+  background: #ff6;
+  color: #000;
 }
 
 ul, li, form, input, dt, dl, dd, ol, div, p, 
@@ -23,7 +23,7 @@ code, abbr {
 
 a {
   text-decoration: none;
-  color: #379;
+  color: #f90;
 }
 
 a:hover {
@@ -60,7 +60,7 @@ img { border: 0; }
 
 #header {
   text-align: left;
-  background-color: #333;
+  background-color: #8b2323;
   border-bottom: 5px solid #555;
 }
 
@@ -120,12 +120,12 @@ img { border: 0; }
   float: left;
   padding: 9px;
   text-transform: uppercase;
-  color: #ccc;
+  color: #fff;
   font-weight: bold;
 }
 
 #header-nav li a:hover {
-  background-color: #222;
+  background-color: #222; /* it appears this does not even do shit */
   color: #fff;
 }
 
@@ -134,11 +134,11 @@ img { border: 0; }
   right: 18px;
   top: 2px;
   font-size: 92%;
-  color: #777;
+  color: #cd9b1d;
 }
 
 #header-meta a {
-  color: #bbb;
+  color: #ffd700;
   margin-right: 10px;
 }
 
@@ -215,7 +215,7 @@ img { border: 0; }
 }
 
 .mblock.special {
-  background-color: #cacaca;
+  background-color: #ffa54f;
 }
 
 .mblock.special .mblock-hdr {
@@ -230,8 +230,8 @@ img { border: 0; }
   color: #333;
 }
 
-.mblock.special p.quiet {
-  color: #555;
+.mblock.special p.quiet a {
+  color: #fff4e5;
 }
 
 .mblock.special .datetime {
