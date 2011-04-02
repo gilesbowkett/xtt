@@ -181,7 +181,8 @@ img { border: 0; }
 }
 
 .mblock-hdr .utils a:hover, .sbox-head .utils a:hover {
-  background-color: #aaa;
+  color: white;
+  background-color: #f00;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
   border-radius: 2px;
@@ -219,7 +220,7 @@ img { border: 0; }
 }
 
 .mblock.special .mblock-hdr {
-  border-bottom: 1px solid #aaa;
+  border-bottom: 1px solid #f00;
 }
 
 .mblock h4 {
@@ -412,17 +413,15 @@ li.daybreak {
 }
 
 #project-lists li.context {
-  background-color: #e2e2e2;
+  background-color: #23e932;
   padding: 8px 8px;
 }
-#project-lists 
 #project-lists li.context a {
   font-weight: bold;
-  font-size: 16px;
-  color: #444;
+  color: #000;
 }
 #project-lists li.context:hover {
-  background-color: #cacaca;
+  background-color: #0f0;
 }
 #project-lists li.context:hover a {
   color: #000;
