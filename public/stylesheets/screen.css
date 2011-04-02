@@ -341,13 +341,13 @@ li.daybreak {
 .sbox, .fsbox {
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
-  background: #f7f7f7;
+  background: #FFF68F;
   padding: 8px;
   margin-bottom: 9px;
 }
 
 .sbox-wrapper {
-  border: 1px solid #ddd;
+  border: 1px solid #218868;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
 }
@@ -356,12 +356,16 @@ li.daybreak {
   font-weight: bold;
   font-size: 100%;
   padding: 8px 12px;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #218868;
 }
 
 .sbox-content {
   padding: 8px;
-  background-color: #f2f2f2;
+  background-color: #F0E68C;
+}
+
+.sbox-content a {
+  color: #000;
 }
 
 .sbox-content.nopad {
@@ -403,7 +407,7 @@ li.daybreak {
 }
 
 .text-list .desc {
-  color: #656565;
+  color: #8B864E;
 }
 
 .text-list .rmeta {
@@ -458,7 +462,7 @@ li.daybreak {
   font-size: 110%;
   font-weight: bold;
   display: block;
-  color: #555;
+  color: #8B5742;
 }
 #projects-for-context .ttl {
   float: left;
@@ -468,12 +472,12 @@ li.daybreak {
 }
 
 .meta {
-  color: #999;
+  color: #8B864E;
   text-align: center;
 }
 
 #sbox-projects li:hover {
-  background-color: #eee;
+  background-color: #ADFF2F;
 }
 
 #status-list li {
